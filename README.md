@@ -9,6 +9,7 @@ Since this script requires audio input, you need to install system-level audio d
    ```bash
    brew install portaudio
    ```
+
 2. **Install Python Requirements**:
    Navigate to this directory in your terminal. You should set up a virtual environment to manage dependencies securely without interfering with macOS system packages:
    ```bash
@@ -16,6 +17,7 @@ Since this script requires audio input, you need to install system-level audio d
    source venv/bin/activate
    pip install -r requirements.txt
    ```
+
 ## Setup & Configuration
 
 1. **AI Brain Setup**:
@@ -29,7 +31,10 @@ Since this script requires audio input, you need to install system-level audio d
 
 Make sure your virtual environment is activated before running the assistant:
 ```bash
+source venv/bin/activate
+python main.py
 ```
+
 ## Supported Voice Commands
 - **"Open [App Name]"**: Opens a macOS application (e.g., "Open Safari", "Open Terminal", "Open Spotify").
 - **"Send WhatsApp message"**: Initiates the WhatsApp web automation flow. It asks you for the message and then automates the browser.
