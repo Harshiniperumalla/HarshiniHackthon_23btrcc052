@@ -1,3 +1,5 @@
+> 🏆 **Hackathon Project** — Built for [Pyhackathon] to demonstrate real-time speech recognition, LLM intelligence via Google Gemini API, and desktop application automation.
+> 
 # AI-Powered Voice Assistant
 
 A Python-based voice assistant that uses local speech recognition (STT), text-to-speech (TTS), and the Google Gemini API to act as a truly conversational AI. It can also control macOS applications and send messages via WhatsApp Web.
